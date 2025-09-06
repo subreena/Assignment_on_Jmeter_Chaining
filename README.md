@@ -1,10 +1,10 @@
 # Assignment on Jmeter chaining in dmoney portal
 </hr>
-**URL:** [https://dmoney.roadtocareer.net/]
+**URL:** [https://dmoneyportal.roadtocareer.net/]
 
 ## Description:
 </hr>
-From the dmoney API collection, create another JMeter collection (dmoney.jmx) for the following scenario: </br>
+From the dmoney API collection,we created a JMeter collection (dmoney.jmx) for the following scenario: </br>
 1. Deposit: 5 agents perform deposits for 10 customers. </br>
 2. Send Money: 5 customers send money to another 10 customers. </br>
 3. Payment: 5 customers make payments to 2 merchants. </br>
