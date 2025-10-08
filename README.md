@@ -1,15 +1,15 @@
-# Assignment on Jmeter chaining in dmoney portal
+# JMeter chaining in Dmoney portal
 </hr>
 **URL:** [https://dmoneyportal.roadtocareer.net/]
 
 ## Description:
 </hr>
-From the dmoney API collection,we created a JMeter collection (dmoney.jmx) for the following scenario: </br>
+From the dmoney API collection, we created a JMeter collection (dmoney.jmx) for the following scenario: </br>
 1. Deposit: 5 agents perform deposits for 10 customers. </br>
 2. Send Money: 5 customers send money to another 10 customers. </br>
 3. Payment: 5 customers make payments to 2 merchants. </br>
 
-Note: Log in as an admin once and generate a token to use for each of the threads. Create 3 threads under test plan for each type of transaction and set up agent, customer, and merchant accounts in 3 different CSV files (e.g., deposit.csv, sendMoney.csv and payment.csv). The amount must be dynamic using the Random Variable Controller. Use small amounts so that balance can't become empty. Each thread should have a ramp-up time of 120 seconds. Must add assertion to ensure that all transactions are successful.
+Note: Log in as an admin once and generate a token to use for each of the threads. Create 3 threads under the test plan for each type of transaction and set up agent, customer, and merchant accounts in 3 different CSV files (e.g., deposit.csv, sendMoney.csv, and payment.csv). The amount must be dynamic using the Random Variable Controller. Use small amounts so that the balance can't become empty. Each thread should have a ramp-up time of 120 seconds. Must add an  assertion to ensure that all transactions are successful.
 
 ## Pre-requisites
 1. Install **JDK (LTS version)**
@@ -18,10 +18,10 @@ Note: Log in as an admin once and generate a token to use for each of the thread
 
 ## To run this project
 1. Clone this project
-2. Set up the prerequisites for jmeter
-3. Open dmoney.jmx in Jmeter
+2. Set up the prerequisites for JMeter
+3. Open dmoney.jmx in JMeter
 4. Update the address of the CSV files accordingly
-5. Run the test plan to see the output in the summary table and html report
+5. Run the test plan to see the output in the summary table and HTML report
 
 ## HTML REPORT
 </hr>
